@@ -2,7 +2,7 @@ import axios from 'axios'
 
 
 // const baseURL = 'qualityapp-env.eba-nxqb3s83.us-east-2.elasticbeanstalk.com'
-const baseURL = process.env.REACT_APP_baseURL
+const baseURL = 'qualityapp-env.eba-nxqb3s83.us-east-2.elasticbeanstalk.com'
 
 console.log(baseURL)
 const loginService = axios.create({ baseURL })
